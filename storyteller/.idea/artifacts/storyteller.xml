@@ -1,0 +1,6 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="storyteller">
+    <output-path>$PROJECT_DIR$/out/artifacts/storyteller</output-path>
+    <root id="archive" name="storyteller.jar" />
+  </artifact>
+</component>

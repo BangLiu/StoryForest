@@ -1,0 +1,51 @@
+language = Chinese;
+dataType = ChineseNews;
+fStopwords = conf/stopwords-zh.txt;
+
+boostRateMainKeyword = 3;  //
+boostRateNormalKeyword = 1;
+boostRateNormalWord = 0;
+
+minSimDoc2KeyGraph = .2;  //
+
+communityDetectAlg = betweenness;
+eventSplitAlg = DocRelation;
+
+minTopicSize = 2;  // 2
+
+minNodeDF = 4;
+maxNodeDFPercent = .3;
+minEdgeCorrelation = .2;
+minEdgeDF = 3;
+
+minClusterNodeSize = 3; // 3
+maxClusterNodeSize = 500;
+
+minDocKeywordSize = 3;
+
+minIntersectPercentToMergeCluster = .5;
+
+minCpToDuplicateEdge = 1.7;
+
+useDocumentTopic = true;
+
+useDocumentTitleCommonWords = true;
+minTitleCommonWordsSize = 2;  // 2
+minTitleCommonWordsPercent = .04;  // .18
+
+
+minKeygraphCompatibilityDc2St = .3; // .5
+minCompatibilityDc2Sn = .3; //
+minTFCosineSimilarityDc2Sn = .02;
+deltaTimeGap = .5; //
+deltaDocDistribution = .5;
+
+historyLength = 2; //
+
+fModel = model/svm_model.tencent-news
+
+fSameStoryModel = model/svm_model.tencent-news.same-story
+
+useRelatedNewsTitlesForMatch = true;
+fQueryDocMatchModel = model/svm_model.query_doc;
+maxMatchedDocsSize = 20;

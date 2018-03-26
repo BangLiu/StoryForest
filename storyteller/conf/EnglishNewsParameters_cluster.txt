@@ -1,0 +1,44 @@
+language = English;  //
+dataType = EnglishNews;  //
+fStopwords = conf/stopwords-en.txt;  //
+fModel = model/svm_model.20ng  //
+
+boostRateMainKeyword = 3;
+boostRateNormalKeyword = 1;
+boostRateNormalWord = 0;
+
+minSimDoc2KeyGraph = .01;  //
+
+communityDetectAlg = betweenness;
+eventSplitAlg = DocGraph;  //
+
+minTopicSize = 1;
+
+minNodeDF = 2;
+maxNodeDFPercent = .3;
+minEdgeCorrelation = .2;
+minEdgeDF = 3;
+
+minClusterNodeSize = 1;
+maxClusterNodeSize = 500;
+
+minDocKeywordSize = 0;
+
+minIntersectPercentToMergeCluster = .5;
+
+minCpToDuplicateEdge = 1.7;
+
+useDocumentTopic = false;
+
+useDocumentTitleCommonWords = false;
+minTitleCommonWordsSize = 0;  // 2
+minTitleCommonWordsPercent = .04;  // .18
+
+
+minKeygraphCompatibilityDc2St = .3;
+minCompatibilityDc2Sn = .3;
+minTFCosineSimilarityDc2Sn = .02;
+deltaTimeGap = .5;
+deltaDocDistribution = .5;
+
+historyLength = 2;
