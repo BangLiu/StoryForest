@@ -1,6 +1,4 @@
-# Story Forest
-
-![StoryForest](StoryForest.png)
+# Story Forest![StoryForest](StoryForest.png)
 
 This reporsitory implements **Story Forest** system for event clustering and story generation.
 
