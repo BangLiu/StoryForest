@@ -17,6 +17,6 @@ Please cite the following paper for usage:
 }
 ```
 
-For event clustering, see "eventlayer/EventLayer"; for story generation, see "story layer/StoryLayer". The main functions in the two file shows how to run the process.
+For event clustering, see "eventlayer/EventLayer"; for story generation, see "story layer/StoryLayer". The main functions in the two files show how to run the whole process.
 
 Notice: currently, we haven't release the dataset due to copyright issues. But we will release a sample dataset asap.
